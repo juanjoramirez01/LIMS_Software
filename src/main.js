@@ -6,5 +6,5 @@ import 'materialize-css/dist/js/materialize.js';
 import axios from 'axios';
 import VueAxios from 'vue-axios';
 
-createApp(App).use(VueAxios,axios).mount('#app')
-//createApp(App).use(router).mount('#app')
+//createApp(App).use(VueAxios,axios).mount('#app')
+createApp(App).use(router).mount('#app')
